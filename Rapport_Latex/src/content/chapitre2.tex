@@ -127,15 +127,30 @@ Afin de faciliter le débogage, une copie locale des événements est conservée
     \caption{Copie locale des événements Suricata dans \texttt{suricata-collected.json}.}
 \end{figure}
 
-\subsection{Vérification côté Elasticsearch et Kibana}
-Enfin, les événements collectés sont bien transmis vers Elasticsearch. Dans Kibana, on retrouve un index \texttt{suricata-*} contenant les données issues de Suricata.  
-La capture ci-dessous illustre un exemple d’événements reçus, confirmant le bon acheminement de bout en bout.
+\subsection{Vérification côté Kibana}
+Enfin, les événements collectés sont bien transmis vers Elasticsearch et accessibles dans Kibana.  
+L’onglet \textit{Discover} permet de confirmer la bonne indexation des alertes, en affichant par exemple celles déclenchées lors de nos tests ICMP.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{assets/figures/es-search-suricata.png}
-    \caption{Événements Suricata visibles dans Kibana après intégration avec syslog-ng et Elasticsearch.}
+    \includegraphics[width=0.70\linewidth]{assets/figures/kibana-discover.png}
+    \caption{Affichage des événements Suricata dans Kibana Discover.}
 \end{figure}
 
 \bigskip
-En résumé, syslog-ng assure avec succès son rôle de passerelle entre Suricata et Elasticsearch, permettant d’automatiser la collecte et l’envoi des événements de sécurité vers notre SIEM.
+En résumé, \texttt{syslog-ng} assure avec succès son rôle de passerelle entre Suricata et Elasticsearch, en garantissant que chaque événement de sécurité est stocké localement puis rendu exploitable dans Kibana.
+
+\section{Intégration des outils de visualisation}
+
+Afin d’améliorer la visibilité et l’analyse des événements de sécurité, les journaux collectés par Suricata et envoyés via \texttt{syslog-ng} sont exploités dans Kibana. 
+Cet outil permet de rechercher, filtrer et représenter graphiquement les alertes générées par l’IDS/IPS.
+
+\subsection{Visualisation et tableaux de bord}
+Kibana offre la possibilité de créer des graphiques et tableaux de bord personnalisés.  
+Dans notre cas, nous avons réalisé une visualisation simple représentant le nombre d’alertes dans le temps.  
+Ce test avait uniquement pour objectif de vérifier que toute la chaîne de collecte et d’intégration fonctionnait correctement (Suricata → syslog-ng → Elasticsearch → Kibana).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\linewidth]{assets/figures/kibana-dashboard.png}
+    \caption{Exemple de visualisation des alertes Suricata dans Kibana.}
+\end{figure}

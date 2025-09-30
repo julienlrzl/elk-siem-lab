@@ -9,5 +9,6 @@
 \contentsline {figure}{\numberline {{2.7}}{\ignorespaces \MakeUppercase []{Fichier de configuration syslog-ng pour l’intégration des événements Suricata.}}}{10}{figure.caption.14}%
 \contentsline {figure}{\numberline {{2.8}}{\ignorespaces \MakeUppercase []{Vérification du bon fonctionnement du service \texttt {syslog-ng}.}}}{10}{figure.caption.15}%
 \contentsline {figure}{\numberline {{2.9}}{\ignorespaces \MakeUppercase []{Copie locale des événements Suricata dans \texttt {suricata-collected.json}.}}}{11}{figure.caption.16}%
-\contentsline {figure}{\numberline {{2.10}}{\ignorespaces \MakeUppercase []{Événements Suricata visibles dans Kibana après intégration avec syslog-ng et Elasticsearch.}}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {{2.10}}{\ignorespaces \MakeUppercase []{Affichage des événements Suricata dans Kibana Discover.}}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {{2.11}}{\ignorespaces \MakeUppercase []{Exemple de visualisation des alertes Suricata dans Kibana.}}}{12}{figure.caption.18}%
 \contentsfinish 

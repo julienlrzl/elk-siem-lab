@@ -39,7 +39,11 @@
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.2.3}\formatsubsection {Copie locale des événements}}{11}{subsection.2.2.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {2.2.4}\formatsubsection {Vérification côté Elasticsearch et Kibana}}{11}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}\formatsubsection {Vérification côté Kibana}}{11}{subsection.2.2.4}%
+\vspace {1.5ex}
+\contentsline {section}{\numberline {2.3}\formatsection {Intégration des outils de visualisation}}{12}{section.2.3}%
+\vspace {1.5ex}
+\contentsline {subsection}{\numberline {2.3.1}\formatsubsection {Visualisation et tableaux de bord}}{12}{subsection.2.3.1}%
 \vspace {1.5ex}
 \contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em III\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Scénarios d’intrusion (5 cas)} }{13}{chapter.3}%
 \vspace {1.5ex}
@@ -47,7 +51,7 @@
 \vspace {1.5ex}
 \contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em V\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Analyse et discussion} }{15}{chapter.5}%
 \vspace {1.5ex}
-\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{16}{chapter*.18}%
+\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{16}{chapter*.19}%
 \vspace {1.5ex}
 \contentsline {chapter}{\noindent \MakeUppercase []{\bfseries \textbf {\MakeUppercase []{Appendice} }\hskip 0.5em A\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Première Annexe} }{17}{appendix.A}%
 \contentsfinish 
