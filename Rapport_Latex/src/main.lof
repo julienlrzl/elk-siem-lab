@@ -11,4 +11,17 @@
 \contentsline {figure}{\numberline {{2.9}}{\ignorespaces \MakeUppercase []{Copie locale des événements Suricata dans \texttt {suricata-collected.json}.}}}{11}{figure.caption.16}%
 \contentsline {figure}{\numberline {{2.10}}{\ignorespaces \MakeUppercase []{Affichage des événements Suricata dans Kibana Discover.}}}{11}{figure.caption.17}%
 \contentsline {figure}{\numberline {{2.11}}{\ignorespaces \MakeUppercase []{Exemple de visualisation des alertes Suricata dans Kibana.}}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {{3.1}}{\ignorespaces \MakeUppercase []{Commande \texttt {ping} exécutée dans le terminal (génération du trafic ICMP).}}}{13}{figure.caption.19}%
+\contentsline {figure}{\numberline {{3.2}}{\ignorespaces \MakeUppercase []{Alerte ICMP détectée par Suricata (extrait de fast.log).}}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {{3.3}}{\ignorespaces \MakeUppercase []{Alerte ICMP visible dans Kibana Discover.}}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {{3.4}}{\ignorespaces \MakeUppercase []{Commande Nmap exécutée pour générer l'activité de reconnaissance.}}}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {{3.5}}{\ignorespaces \MakeUppercase []{Alerte de type \texttt {TCP portscan} détectée par Suricata (extrait de fast.log).}}}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {{3.6}}{\ignorespaces \MakeUppercase []{Evénements \texttt {TCP portscan} visibles dans Kibana Discover.}}}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {{3.7}}{\ignorespaces \MakeUppercase []{Commande \texttt {nc} utilisée pour simuler des connexions SSH répétées sur le port 22.}}}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {{3.8}}{\ignorespaces \MakeUppercase []{Alertes SSH détectées par Suricata (extrait de fast.log).}}}{18}{figure.caption.26}%
+\contentsline {figure}{\numberline {{3.9}}{\ignorespaces \MakeUppercase []{Événements SSH détectés dans Kibana Discover.}}}{18}{figure.caption.27}%
+\contentsline {figure}{\numberline {{3.10}}{\ignorespaces \MakeUppercase []{Alerte \texttt {WEB-FUZZ} détectée par Suricata (extrait de fast.log).}}}{19}{figure.caption.28}%
+\contentsline {figure}{\numberline {{3.11}}{\ignorespaces \MakeUppercase []{Evénement \texttt {WEB-FUZZ} indexé et visible dans Kibana Discover.}}}{20}{figure.caption.29}%
+\contentsline {figure}{\numberline {{3.12}}{\ignorespaces \MakeUppercase []{Alerte \texttt {FTP anonymous login attempt} détectée par Suricata (extrait de fast.log).}}}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {{3.13}}{\ignorespaces \MakeUppercase []{Evénement FTP anonyme visible dans Kibana Discover.}}}{22}{figure.caption.31}%
 \contentsfinish 

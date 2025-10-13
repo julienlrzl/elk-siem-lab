@@ -3,8 +3,45 @@
 \@writefile{toc}{\vspace {1.5ex}}
 \@writefile{toc}{\contentsline {chapter}{\noindent \MakeUppercase    []{\bfseries  Chapitre\hskip 0.5em III\hskip 0.5em \textendash \hskip 0.5em} \bfseries  \MakeUppercase    []{Scénarios d’intrusion (5 cas)} }{13}{chapter.3}\protected@file@percent }
 \newlabel{chap:chap_3}{{3}{13}{Scénarios d’intrusion (5 cas)}{chapter.3}{}}
+\@writefile{toc}{\vspace {1.5ex}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.1}\formatsubsection {Scénario 1 — ICMP (ping)}}{13}{subsection.3.0.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.1}}{\ignorespaces \MakeUppercase    []{Commande \texttt  {ping} exécutée dans le terminal (génération du trafic ICMP).}}}{13}{figure.caption.19}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:scen1_ping_cmd}{{{3.1}}{13}{\MakeUppercase {\shortcaption }}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.2}}{\ignorespaces \MakeUppercase    []{Alerte ICMP détectée par Suricata (extrait de fast.log).}}}{14}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:scen1_fastlog}{{{3.2}}{14}{\MakeUppercase {\shortcaption }}{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.3}}{\ignorespaces \MakeUppercase    []{Alerte ICMP visible dans Kibana Discover.}}}{14}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:scen1_kibana}{{{3.3}}{14}{\MakeUppercase {\shortcaption }}{figure.caption.21}{}}
+\@writefile{toc}{\vspace {1.5ex}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.2}\formatsubsection {Scénario 2 — Reconnaissance : scan Nmap}}{15}{subsection.3.0.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.4}}{\ignorespaces \MakeUppercase    []{Commande Nmap exécutée pour générer l'activité de reconnaissance.}}}{15}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:scen2_nmap}{{{3.4}}{15}{\MakeUppercase {\shortcaption }}{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.5}}{\ignorespaces \MakeUppercase    []{Alerte de type \texttt  {TCP portscan} détectée par Suricata (extrait de fast.log).}}}{16}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:scen2_fastlog}{{{3.5}}{16}{\MakeUppercase {\shortcaption }}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.6}}{\ignorespaces \MakeUppercase    []{Evénements \texttt  {TCP portscan} visibles dans Kibana Discover.}}}{16}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:scen2_kibana}{{{3.6}}{16}{\MakeUppercase {\shortcaption }}{figure.caption.24}{}}
+\@writefile{toc}{\vspace {1.5ex}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.3}\formatsubsection {Scénario 3 — Tentatives SSH}}{17}{subsection.3.0.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.7}}{\ignorespaces \MakeUppercase    []{Commande \texttt  {nc} utilisée pour simuler des connexions SSH répétées sur le port 22.}}}{17}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:scen3_nc_cmd}{{{3.7}}{17}{\MakeUppercase {\shortcaption }}{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.8}}{\ignorespaces \MakeUppercase    []{Alertes SSH détectées par Suricata (extrait de fast.log).}}}{18}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:scen3_fastlog}{{{3.8}}{18}{\MakeUppercase {\shortcaption }}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.9}}{\ignorespaces \MakeUppercase    []{Événements SSH détectés dans Kibana Discover.}}}{18}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:scen3_kibana}{{{3.9}}{18}{\MakeUppercase {\shortcaption }}{figure.caption.27}{}}
+\@writefile{toc}{\vspace {1.5ex}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.4}\formatsubsection {Scénario 4 — Fuzzing web (volume élevé)}}{19}{subsection.3.0.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.10}}{\ignorespaces \MakeUppercase    []{Alerte \texttt  {WEB-FUZZ} détectée par Suricata (extrait de fast.log).}}}{19}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:scen4_fastlog}{{{3.10}}{19}{\MakeUppercase {\shortcaption }}{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.11}}{\ignorespaces \MakeUppercase    []{Evénement \texttt  {WEB-FUZZ} indexé et visible dans Kibana Discover.}}}{20}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:scen4_kibana_discover}{{{3.11}}{20}{\MakeUppercase {\shortcaption }}{figure.caption.29}{}}
+\@writefile{toc}{\vspace {1.5ex}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.5}\formatsubsection {Scénario 5 — FTP : tentative d'accès anonyme}}{21}{subsection.3.0.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.12}}{\ignorespaces \MakeUppercase    []{Alerte \texttt  {FTP anonymous login attempt} détectée par Suricata (extrait de fast.log).}}}{21}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:scen_ftp_fastlog}{{{3.12}}{21}{\MakeUppercase {\shortcaption }}{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{3.13}}{\ignorespaces \MakeUppercase    []{Evénement FTP anonyme visible dans Kibana Discover.}}}{22}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:scen_ftp_kibana}{{{3.13}}{22}{\MakeUppercase {\shortcaption }}{figure.caption.31}{}}
 \@setckpt{content/chapitre3}{
-\setcounter{page}{14}
+\setcounter{page}{23}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -15,11 +52,11 @@
 \setcounter{part}{0}
 \setcounter{chapter}{3}
 \setcounter{section}{0}
-\setcounter{subsection}{0}
+\setcounter{subsection}{5}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{13}
 \setcounter{table}{0}
 \setcounter{float@type}{16}
 \setcounter{parentequation}{0}
@@ -39,7 +76,7 @@
 \setcounter{nprt@cntprint}{0}
 \setcounter{FancyVerbLine}{0}
 \setcounter{linenumber}{1}
-\setcounter{LN@truepage}{16}
+\setcounter{LN@truepage}{26}
 \setcounter{FancyVerbWriteLine}{0}
 \setcounter{FancyVerbBufferLine}{0}
 \setcounter{FV@TrueTabGroupLevel}{0}
@@ -66,7 +103,7 @@
 \setcounter{section@level}{2}
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{bookmark@seq@number}{23}
+\setcounter{bookmark@seq@number}{28}
 \setcounter{lstnumber}{2}
 \setcounter{lstlisting}{0}
 }
