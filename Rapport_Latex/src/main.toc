@@ -25,59 +25,57 @@
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.1.3}\formatsubsection {Test de configuration}}{7}{subsection.2.1.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {2.1.4}\formatsubsection {Relance du service}}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}\formatsubsection {Relance du service}}{8}{subsection.2.1.4}%
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.1.5}\formatsubsection {Génération de trafic ICMP}}{8}{subsection.2.1.5}%
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.1.6}\formatsubsection {Vérification des alertes générées}}{9}{subsection.2.1.6}%
 \vspace {1.5ex}
-\contentsline {section}{\numberline {2.2}\formatsection {Configuration de syslog-ng}}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.2}\formatsection {Configuration de syslog-ng}}{10}{section.2.2}%
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.2.1}\formatsubsection {Fichier de configuration}}{10}{subsection.2.2.1}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {2.2.2}\formatsubsection {Démarrage et vérification du service}}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}\formatsubsection {Démarrage et vérification du service}}{11}{subsection.2.2.2}%
 \vspace {1.5ex}
 \contentsline {subsection}{\numberline {2.2.3}\formatsubsection {Copie locale des événements}}{11}{subsection.2.2.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {2.2.4}\formatsubsection {Vérification côté Kibana}}{11}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}\formatsubsection {Vérification côté Kibana}}{12}{subsection.2.2.4}%
 \vspace {1.5ex}
 \contentsline {section}{\numberline {2.3}\formatsection {Intégration des outils de visualisation}}{12}{section.2.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {2.3.1}\formatsubsection {Visualisation et tableaux de bord}}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}\formatsubsection {Visualisation et tableaux de bord}}{13}{subsection.2.3.1}%
 \vspace {1.5ex}
-\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em III\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Scénarios d’intrusion (5 cas)} }{13}{chapter.3}%
+\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em III\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Scénarios d’intrusion (5 cas)} }{14}{chapter.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {3.0.1}\formatsubsection {Scénario 1 — ICMP (ping)}}{13}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.1}\formatsubsection {Scénario 1 — ICMP (ping)}}{14}{subsection.3.0.1}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {3.0.2}\formatsubsection {Scénario 2 — Reconnaissance : scan Nmap}}{15}{subsection.3.0.2}%
+\contentsline {subsection}{\numberline {3.0.2}\formatsubsection {Scénario 2 — Reconnaissance : scan Nmap}}{16}{subsection.3.0.2}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {3.0.3}\formatsubsection {Scénario 3 — Tentatives SSH}}{17}{subsection.3.0.3}%
+\contentsline {subsection}{\numberline {3.0.3}\formatsubsection {Scénario 3 — Tentatives SSH}}{18}{subsection.3.0.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {3.0.4}\formatsubsection {Scénario 4 — Fuzzing web (volume élevé)}}{19}{subsection.3.0.4}%
+\contentsline {subsection}{\numberline {3.0.4}\formatsubsection {Scénario 4 — Fuzzing web (volume élevé)}}{20}{subsection.3.0.4}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {3.0.5}\formatsubsection {Scénario 5 — FTP : tentative d'accès anonyme}}{21}{subsection.3.0.5}%
+\contentsline {subsection}{\numberline {3.0.5}\formatsubsection {Scénario 5 — FTP : tentative d'accès anonyme}}{22}{subsection.3.0.5}%
 \vspace {1.5ex}
-\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em IV\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Visualisation et alertes} }{23}{chapter.4}%
+\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em IV\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Visualisation et alertes} }{24}{chapter.4}%
 \vspace {1.5ex}
-\contentsline {section}{\numberline {4.1}\formatsection {Collecte et gestion des logs prioritaires en sécurité}}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.1}\formatsection {Collecte et gestion des logs prioritaires en sécurité}}{24}{section.4.1}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {4.1.1}\formatsubsection {Collecte et transfert des journaux}}{23}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}\formatsubsection {Collecte et transfert des journaux}}{24}{subsection.4.1.1}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {4.1.2}\formatsubsection {Structure et rotation automatique des logs}}{24}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}\formatsubsection {Structure et rotation automatique des logs}}{25}{subsection.4.1.2}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {4.1.3}\formatsubsection {Corrélation et visualisation dans Kibana}}{25}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}\formatsubsection {Corrélation et visualisation dans Kibana}}{26}{subsection.4.1.3}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {4.1.4}\formatsubsection {Synthèse de la collecte par scénario}}{25}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.4}\formatsubsection {Justification et intérêt sécurité}}{26}{subsection.4.1.4}%
 \vspace {1.5ex}
-\contentsline {subsection}{\numberline {4.1.5}\formatsubsection {Justification et intérêt sécurité}}{25}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}\formatsection {Point bonus — Tableau de bord Kibana personnalisé}}{27}{section.4.2}%
 \vspace {1.5ex}
-\contentsline {section}{\numberline {4.2}\formatsection {Point bonus — Tableau de bord Kibana personnalisé}}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\formatsection {Point bonus — Automatisation des alertes Slack}}{28}{section.4.3}%
 \vspace {1.5ex}
-\contentsline {section}{\numberline {4.3}\formatsection {Point bonus — Automatisation des alertes Slack}}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\formatsection {Point bonus — Schéma d'architecture (Mermaid)}}{29}{section.4.4}%
 \vspace {1.5ex}
-\contentsline {section}{\numberline {4.4}\formatsection {Point bonus — Schéma d'architecture (Mermaid)}}{28}{section.4.4}%
+\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em V\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Analyse et discussion} }{30}{chapter.5}%
 \vspace {1.5ex}
-\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em V\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Analyse et discussion} }{29}{chapter.5}%
-\vspace {1.5ex}
-\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{30}{chapter*.38}%
+\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{31}{chapter*.37}%
 \contentsfinish 

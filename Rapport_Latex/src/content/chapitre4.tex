@@ -53,23 +53,6 @@ Cette rotation automatique est essentielle pour maintenir la disponibilité et l
 Les événements issus de Suricata sont ensuite indexés dans Elasticsearch et visualisés dans Kibana Discover.  
 Chaque alerte correspond à une signature spécifique (champ \texttt{alert.signature}) générée par l’une des règles locales définies pour les scénarios ICMP, Nmap, SSH, Web Fuzzing et FTP comme on l'a vu dans les chapitres précédents du rapport.
 
-\subsection{Synthèse de la collecte par scénario}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{Scénario d’intrusion} & \textbf{Type d’événement détecté} & \textbf{Fichiers de logs concernés} \\ \hline
-1 — ICMP (Ping) & Trafic ICMP (echo request/reply) & fast.log / eve.json \\ \hline
-2 — Scan Nmap & Connexions TCP multiples & fast.log / eve.json \\ \hline
-3 — SSH & Connexions répétées sur le port 22 & fast.log / eve.json \\ \hline
-4 — Web Fuzzing & Volume élevé de requêtes HTTP & fast.log / eve.json \\ \hline
-5 — FTP Anonyme & Connexion au port 21 (anonymous login) & fast.log / eve.json \\ \hline
-\end{tabular}
-\caption{Correspondance entre les scénarios d’intrusion et les types de logs collectés.}
-\label{tab:scen_logs}
-\end{table}
-
 \subsection{Justification et intérêt sécurité}
 
 Ce mécanisme de collecte et de gestion centralisée offre plusieurs avantages essentiels :
