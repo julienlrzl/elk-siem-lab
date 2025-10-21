@@ -65,7 +65,7 @@ Les commandes précises et captures sont détaillées dans le rapport.
 
 ## Auteur
 
-Julien Larzul - Tom Humeau - Ian Bertrand - Alexis Georges
+Julien Larzul - Tom Humeau - Ian Bertrand - Alexis Georges  
 Sécurité Informatique
 
 ---
