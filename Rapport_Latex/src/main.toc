@@ -77,5 +77,7 @@
 \vspace {1.5ex}
 \contentsline {section}{\numberline {4.4}\formatsection {Point bonus — Schéma d'architecture (Mermaid)}}{28}{section.4.4}%
 \vspace {1.5ex}
-\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{29}{chapter*.38}%
+\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em V\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Analyse et discussion} }{29}{chapter.5}%
+\vspace {1.5ex}
+\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{30}{chapter*.38}%
 \contentsfinish 

@@ -443,6 +443,9 @@ INPUT content/chapitre3.aux
 INPUT ./content/chapitre4.aux
 INPUT ./content/chapitre4.aux
 INPUT content/chapitre4.aux
+INPUT ./content/chapitre5.aux
+INPUT ./content/chapitre5.aux
+INPUT content/chapitre5.aux
 INPUT ./content/conclusion.aux
 INPUT ./content/conclusion.aux
 INPUT content/conclusion.aux
@@ -779,6 +782,12 @@ INPUT ./assets/figures/arch_suricata_stack.png
 INPUT ./assets/figures/arch_suricata_stack.png
 INPUT ./assets/figures/arch_suricata_stack.png
 INPUT ./assets/figures/arch_suricata_stack.png
+INPUT ./content/chapitre5.tex
+INPUT ./content/chapitre5.tex
+OUTPUT content/chapitre5.aux
+INPUT ./content/chapitre5.tex
+INPUT ./content/chapitre5.tex
+INPUT content/chapitre5.tex
 INPUT ./content/conclusion.tex
 INPUT ./content/conclusion.tex
 OUTPUT content/conclusion.aux
@@ -801,6 +810,9 @@ INPUT content/chapitre3.aux
 INPUT ./content/chapitre4.aux
 INPUT ./content/chapitre4.aux
 INPUT content/chapitre4.aux
+INPUT ./content/chapitre5.aux
+INPUT ./content/chapitre5.aux
+INPUT content/chapitre5.aux
 INPUT ./content/conclusion.aux
 INPUT ./content/conclusion.aux
 INPUT content/conclusion.aux
