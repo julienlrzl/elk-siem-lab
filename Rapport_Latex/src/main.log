@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.5)  13 OCT 2025 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.5)  21 OCT 2025 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1074,11 +1074,7 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 89.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main.aux (./content/introduction.aux) (./content/chapitre1.aux) (./content/chapitre2.aux) (./content/chapitre3.aux) (./content/chapitre4.aux) (./content/chapitre5.aux
-
-LaTeX Warning: Label `chap:chap_4' multiply defined.
-
-) (./content/conclusion.aux) (./content/annexe_a.aux))
+) (./main.aux (./content/introduction.aux) (./content/chapitre1.aux) (./content/chapitre2.aux) (./content/chapitre3.aux) (./content/chapitre4.aux) (./content/conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -1207,7 +1203,7 @@ Package epstopdf Info: Source file: <logo-uqac.eps>
 (epstopdf)             Command: <repstopdf --outfile=logo-uqac-eps-converted-to.pdf logo-uqac.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
-<logo-uqac-eps-converted-to.pdf, id=135, 121.45375pt x 58.2175pt>
+<logo-uqac-eps-converted-to.pdf, id=163, 121.45375pt x 58.2175pt>
 File: logo-uqac-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-uqac-eps-converted-to.pdf>
 Package pdftex.def Info: logo-uqac-eps-converted-to.pdf  used on input line 120.
@@ -1290,6 +1286,11 @@ Overfull \hbox (26.40033pt too wide) in paragraph at lines 21--21
  []| [][][]\T1/ptm/m/n/12 (-20) ALERTES SSH DÉ-TEC-TÉES PAR SU-RI-CATA (EX-TRAIT DE FAST.LOG).[][]| 
  []
 
+
+Overfull \hbox (10.61188pt too wide) in paragraph at lines 31--31
+ []| [][][]\T1/ptm/m/n/12 (-20) CHAÎNE DE COL-LECTE ET SU-PER-VI-SION : SU-RI-CATA $\OMS/ztmcm/m/n/12 !$ \T1/ptm/m/n/12 (-20) SYSLOG- 
+ []
+
 )
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -1337,7 +1338,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
  (./content/chapitre2.tex
 Chapitre 2.
-<assets/figures/suricata-rulefiles.png, id=320, 745.78625pt x 111.41624pt>
+<assets/figures/suricata-rulefiles.png, id=378, 745.78625pt x 111.41624pt>
 File: assets/figures/suricata-rulefiles.png Graphic file (type png)
 <use assets/figures/suricata-rulefiles.png>
 Package pdftex.def Info: assets/figures/suricata-rulefiles.png  used on input line 21.
@@ -1356,12 +1357,12 @@ Overfull \hbox (31.78044pt too wide) in paragraph at lines 30--30
 []\T1/cmtt/m/n/12 alert icmp any any -> any any (msg:"ICMP test detected"; sid:1000001; rev:1;)[] 
  []
 
-<assets/figures/local-rules.png, id=328, 646.415pt x 56.21pt>
+<assets/figures/local-rules.png, id=386, 646.415pt x 56.21pt>
 File: assets/figures/local-rules.png Graphic file (type png)
 <use assets/figures/local-rules.png>
 Package pdftex.def Info: assets/figures/local-rules.png  used on input line 35.
 (pdftex.def)             Requested size: 399.21791pt x 34.71431pt.
-<assets/figures/suricata-test.png, id=329, 665.48625pt x 53.19875pt>
+<assets/figures/suricata-test.png, id=387, 665.48625pt x 53.19875pt>
 File: assets/figures/suricata-test.png Graphic file (type png)
 <use assets/figures/suricata-test.png>
 Package pdftex.def Info: assets/figures/suricata-test.png  used on input line 49.
@@ -1369,12 +1370,12 @@ Package pdftex.def Info: assets/figures/suricata-test.png  used on input line 49
 
 
 [7 <./assets/figures/local-rules.png> <./assets/figures/suricata-test.png>]
-<assets/figures/suricata-restart.png, id=339, 630.355pt x 70.2625pt>
+<assets/figures/suricata-restart.png, id=396, 630.355pt x 70.2625pt>
 File: assets/figures/suricata-restart.png Graphic file (type png)
 <use assets/figures/suricata-restart.png>
 Package pdftex.def Info: assets/figures/suricata-restart.png  used on input line 64.
 (pdftex.def)             Requested size: 399.21791pt x 44.49931pt.
-<assets/figures/ping-icmp.png, id=340, 504.88625pt x 158.5925pt>
+<assets/figures/ping-icmp.png, id=397, 504.88625pt x 158.5925pt>
 File: assets/figures/ping-icmp.png Graphic file (type png)
 <use assets/figures/ping-icmp.png>
 Package pdftex.def Info: assets/figures/ping-icmp.png  used on input line 77.
@@ -1382,7 +1383,7 @@ Package pdftex.def Info: assets/figures/ping-icmp.png  used on input line 77.
 
 
 [8 <./assets/figures/suricata-restart.png> <./assets/figures/ping-icmp.png>]
-<assets/figures/icmp-alert.png, id=349, 1438.37375pt x 265.99374pt>
+<assets/figures/icmp-alert.png, id=406, 1438.37375pt x 265.99374pt>
 File: assets/figures/icmp-alert.png Graphic file (type png)
 <use assets/figures/icmp-alert.png>
 Package pdftex.def Info: assets/figures/icmp-alert.png  used on input line 91.
@@ -1392,7 +1393,7 @@ Overfull \hbox (206.17812pt too wide) in paragraph at lines 103--105
 []\T1/ptm/m/n/12 (-20) Pour réa-li-ser cette in-té-gra-tion, j'ai ajouté un fi-chier de confi-gu-ra-tion dé-dié dans \T1/cmtt/m/n/12 /etc/syslog-ng/conf.d/30-suricata-es.conf\T1/ptm/m/n/12 (-20) .
  []
 
-<assets/figures/sng-conf.png, id=350, 780.9175pt x 297.11pt>
+<assets/figures/sng-conf.png, id=407, 780.9175pt x 297.11pt>
 File: assets/figures/sng-conf.png Graphic file (type png)
 <use assets/figures/sng-conf.png>
 Package pdftex.def Info: assets/figures/sng-conf.png  used on input line 108.
@@ -1400,12 +1401,12 @@ Package pdftex.def Info: assets/figures/sng-conf.png  used on input line 108.
 
 
 [9 <./assets/figures/icmp-alert.png>]
-<assets/figures/sng-status.png, id=360, 1297.84875pt x 280.04625pt>
+<assets/figures/sng-status.png, id=417, 1297.84875pt x 280.04625pt>
 File: assets/figures/sng-status.png Graphic file (type png)
 <use assets/figures/sng-status.png>
 Package pdftex.def Info: assets/figures/sng-status.png  used on input line 117.
 (pdftex.def)             Requested size: 399.21791pt x 86.13828pt.
-<assets/figures/sng-localcopy.png, id=361, 1444.39626pt x 211.79124pt>
+<assets/figures/sng-localcopy.png, id=418, 1444.39626pt x 211.79124pt>
 File: assets/figures/sng-localcopy.png Graphic file (type png)
 <use assets/figures/sng-localcopy.png>
 Package pdftex.def Info: assets/figures/sng-localcopy.png  used on input line 126.
@@ -1413,7 +1414,7 @@ Package pdftex.def Info: assets/figures/sng-localcopy.png  used on input line 12
 
 
 [10 <./assets/figures/sng-conf.png> <./assets/figures/sng-status.png>]
-<assets/figures/kibana-discover.png, id=370, 1458.44875pt x 842.14626pt>
+<assets/figures/kibana-discover.png, id=427, 1458.44875pt x 842.14626pt>
 File: assets/figures/kibana-discover.png Graphic file (type png)
 <use assets/figures/kibana-discover.png>
 Package pdftex.def Info: assets/figures/kibana-discover.png  used on input line 136.
@@ -1433,7 +1434,7 @@ LaTeX Info: Symbol \textrightarrow not provided by
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
             Default family used instead on input line 151.
-<assets/figures/kibana-dashboard.png, id=379, 837.1275pt x 479.7925pt>
+<assets/figures/kibana-dashboard.png, id=436, 837.1275pt x 479.7925pt>
 File: assets/figures/kibana-dashboard.png Graphic file (type png)
 <use assets/figures/kibana-dashboard.png>
 Package pdftex.def Info: assets/figures/kibana-dashboard.png  used on input line 154.
@@ -1454,12 +1455,12 @@ LaTeX Info: Symbol \textrightarrow not provided by
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
             Default family used instead on input line 7.
-<assets/figures/scen1_ping_cmd.png, id=387, 503.8825pt x 210.7875pt>
+<assets/figures/scen1_ping_cmd.png, id=444, 503.8825pt x 210.7875pt>
 File: assets/figures/scen1_ping_cmd.png Graphic file (type png)
 <use assets/figures/scen1_ping_cmd.png>
 Package pdftex.def Info: assets/figures/scen1_ping_cmd.png  used on input line 18.
 (pdftex.def)             Requested size: 399.21791pt x 167.00275pt.
-<assets/figures/scen1_fastlog.png, id=390, 1163.34625pt x 74.2775pt>
+<assets/figures/scen1_fastlog.png, id=447, 1163.34625pt x 74.2775pt>
 File: assets/figures/scen1_fastlog.png Graphic file (type png)
 <use assets/figures/scen1_fastlog.png>
 Package pdftex.def Info: assets/figures/scen1_fastlog.png  used on input line 27.
@@ -1472,7 +1473,7 @@ Package pdftex.def Info: assets/figures/scen1_fastlog.png  used on input line 27
 
 
  <./assets/figures/scen1_ping_cmd.png>]
-<assets/figures/scen1_kibana_discover.png, id=399, 1295.84125pt x 557.08125pt>
+<assets/figures/scen1_kibana_discover.png, id=456, 1295.84125pt x 557.08125pt>
 File: assets/figures/scen1_kibana_discover.png Graphic file (type png)
 <use assets/figures/scen1_kibana_discover.png>
 Package pdftex.def Info: assets/figures/scen1_kibana_discover.png  used on input line 34.
@@ -1480,7 +1481,7 @@ Package pdftex.def Info: assets/figures/scen1_kibana_discover.png  used on input
 
 
 [14 <./assets/figures/scen1_fastlog.png> <./assets/figures/scen1_kibana_discover.png>]
-<assets/figures/scen2_nmap_cmd.png, id=408, 596.2275pt x 154.5775pt>
+<assets/figures/scen2_nmap_cmd.png, id=465, 596.2275pt x 154.5775pt>
 File: assets/figures/scen2_nmap_cmd.png Graphic file (type png)
 <use assets/figures/scen2_nmap_cmd.png>
 Package pdftex.def Info: assets/figures/scen2_nmap_cmd.png  used on input line 61.
@@ -1490,7 +1491,7 @@ Overfull \hbox (10.15591pt too wide) in paragraph at lines 66--67
 []\T1/ptm/b/n/12 (-20) Preuves : \T1/ptm/m/n/12 (-20) la fi-gure [][]3.5[][] montre l'en-trée d'alerte cor-res-pon-dante dans $\T1/cmtt/m/n/12 /var / log / suricata /
  []
 
-<assets/figures/scen2_fastlog.png, id=411, 1241.63875pt x 158.5925pt>
+<assets/figures/scen2_fastlog.png, id=468, 1241.63875pt x 158.5925pt>
 File: assets/figures/scen2_fastlog.png Graphic file (type png)
 <use assets/figures/scen2_fastlog.png>
 Package pdftex.def Info: assets/figures/scen2_fastlog.png  used on input line 70.
@@ -1500,7 +1501,7 @@ Package pdftex.def Info: assets/figures/scen2_fastlog.png  used on input line 70
 [15
 
  <./assets/figures/scen2_nmap_cmd.png>]
-<assets/figures/scen2_kibana_discover.png, id=419, 1453.43pt x 671.50874pt>
+<assets/figures/scen2_kibana_discover.png, id=477, 1453.43pt x 671.50874pt>
 File: assets/figures/scen2_kibana_discover.png Graphic file (type png)
 <use assets/figures/scen2_kibana_discover.png>
 Package pdftex.def Info: assets/figures/scen2_kibana_discover.png  used on input line 77.
@@ -1508,12 +1509,12 @@ Package pdftex.def Info: assets/figures/scen2_kibana_discover.png  used on input
 
 
 [16 <./assets/figures/scen2_fastlog.png> <./assets/figures/scen2_kibana_discover.png>]
-<assets/figures/scen3_nc_cmd.png, id=428, 821.0675pt x 191.71625pt>
+<assets/figures/scen3_nc_cmd.png, id=486, 821.0675pt x 191.71625pt>
 File: assets/figures/scen3_nc_cmd.png Graphic file (type png)
 <use assets/figures/scen3_nc_cmd.png>
 Package pdftex.def Info: assets/figures/scen3_nc_cmd.png  used on input line 102.
 (pdftex.def)             Requested size: 399.21791pt x 93.21336pt.
-<assets/figures/scen3_fastlog.png, id=431, 1445.4pt x 71.26625pt>
+<assets/figures/scen3_fastlog.png, id=489, 1445.4pt x 71.26625pt>
 File: assets/figures/scen3_fastlog.png Graphic file (type png)
 <use assets/figures/scen3_fastlog.png>
 Package pdftex.def Info: assets/figures/scen3_fastlog.png  used on input line 111.
@@ -1523,7 +1524,7 @@ Package pdftex.def Info: assets/figures/scen3_fastlog.png  used on input line 11
 [17
 
  <./assets/figures/scen3_nc_cmd.png>]
-<assets/figures/scen3_kibana.png, id=440, 1450.41875pt x 714.67pt>
+<assets/figures/scen3_kibana.png, id=498, 1450.41875pt x 714.67pt>
 File: assets/figures/scen3_kibana.png Graphic file (type png)
 <use assets/figures/scen3_kibana.png>
 Package pdftex.def Info: assets/figures/scen3_kibana.png  used on input line 118.
@@ -1531,12 +1532,12 @@ Package pdftex.def Info: assets/figures/scen3_kibana.png  used on input line 118
 
 
 [18 <./assets/figures/scen3_fastlog.png> <./assets/figures/scen3_kibana.png>]
-<assets/figures/scen4_fastlog.png, id=451, 1442.38875pt x 249.93375pt>
+<assets/figures/scen4_fastlog.png, id=509, 1442.38875pt x 249.93375pt>
 File: assets/figures/scen4_fastlog.png Graphic file (type png)
 <use assets/figures/scen4_fastlog.png>
 Package pdftex.def Info: assets/figures/scen4_fastlog.png  used on input line 150.
 (pdftex.def)             Requested size: 399.21791pt x 69.17247pt.
-<assets/figures/scen4_kibana_discover.png, id=452, 1307.88625pt x 651.43375pt>
+<assets/figures/scen4_kibana_discover.png, id=510, 1307.88625pt x 651.43375pt>
 File: assets/figures/scen4_kibana_discover.png Graphic file (type png)
 <use assets/figures/scen4_kibana_discover.png>
 Package pdftex.def Info: assets/figures/scen4_kibana_discover.png  used on input line 157.
@@ -1548,12 +1549,12 @@ Package pdftex.def Info: assets/figures/scen4_kibana_discover.png  used on input
  <./assets/figures/scen4_fastlog.png>]
 
 [20 <./assets/figures/scen4_kibana_discover.png>]
-<assets/figures/scen_ftp_fastlog.png, id=477, 1377.145pt x 60.225pt>
+<assets/figures/scen_ftp_fastlog.png, id=534, 1377.145pt x 60.225pt>
 File: assets/figures/scen_ftp_fastlog.png Graphic file (type png)
 <use assets/figures/scen_ftp_fastlog.png>
 Package pdftex.def Info: assets/figures/scen_ftp_fastlog.png  used on input line 185.
 (pdftex.def)             Requested size: 399.21791pt x 17.45836pt.
-<assets/figures/scen_ftp_kibana.png, id=478, 1303.87125pt x 470.75874pt>
+<assets/figures/scen_ftp_kibana.png, id=535, 1303.87125pt x 470.75874pt>
 File: assets/figures/scen_ftp_kibana.png Graphic file (type png)
 <use assets/figures/scen_ftp_kibana.png>
 Package pdftex.def Info: assets/figures/scen_ftp_kibana.png  used on input line 192.
@@ -1569,7 +1570,26 @@ Package pdftex.def Info: assets/figures/scen_ftp_kibana.png  used on input line 
 
  (./content/chapitre4.tex
 Chapitre 4.
-)
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 8.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 8.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 8.
+
+Overfull \hbox (0.51022pt too wide) in paragraph at lines 12--15
+[]\T1/ptm/m/n/12 (-20) Les jour-naux pro-duits par Su-ri-cata sont sto-ckés dans le ré-per-toire $\T1/cmtt/m/n/12 /var / log / suricata/$\T1/ptm/m/n/12 (-20) .
+ []
+
+<assets/figures/syslog_ng_evejson.png, id=554, 666.49pt x 211.79124pt>
+File: assets/figures/syslog_ng_evejson.png Graphic file (type png)
+<use assets/figures/syslog_ng_evejson.png>
+Package pdftex.def Info: assets/figures/syslog_ng_evejson.png  used on input line 26.
+(pdftex.def)             Requested size: 399.21791pt x 126.86243pt.
+
 
 [23
 
@@ -1577,67 +1597,90 @@ Chapitre 4.
 
 
 ]
-\openout2 = `content/chapitre5.aux'.
+<assets/figures/suricata_logs_rotation.png, id=559, 500.87125pt x 263.98625pt>
+File: assets/figures/suricata_logs_rotation.png Graphic file (type png)
+<use assets/figures/suricata_logs_rotation.png>
+Package pdftex.def Info: assets/figures/suricata_logs_rotation.png  used on input line 43.
+(pdftex.def)             Requested size: 332.68385pt x 175.35126pt.
 
- (./content/chapitre5.tex
-Chapitre 5.
+
+[24 <./assets/figures/syslog_ng_evejson.png> <./assets/figures/suricata_logs_rotation.png>]
+Overfull \hbox (29.79762pt too wide) in paragraph at lines 60--69
+ [][] 
+ []
+
+
+
+[25]
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 90.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 90.
+<assets/figures/kibana_dashboard_final.png, id=575, 1479.5275pt x 801.99625pt>
+File: assets/figures/kibana_dashboard_final.png Graphic file (type png)
+<use assets/figures/kibana_dashboard_final.png>
+Package pdftex.def Info: assets/figures/kibana_dashboard_final.png  used on input line 105.
+(pdftex.def)             Requested size: 266.14978pt x 144.26743pt.
+
+
+[26
+
+ <./assets/figures/kibana_dashboard_final.png>]
+<assets/figures/slack_alert_example.png, id=586, 1244.65pt x 804.00375pt>
+File: assets/figures/slack_alert_example.png Graphic file (type png)
+<use assets/figures/slack_alert_example.png>
+Package pdftex.def Info: assets/figures/slack_alert_example.png  used on input line 120.
+(pdftex.def)             Requested size: 399.21791pt x 257.87532pt.
+
+
+[27
+
+ <./assets/figures/slack_alert_example.png>]
+<assets/figures/arch_suricata_stack.png, id=595, 4263.93pt x 857.2025pt>
+File: assets/figures/arch_suricata_stack.png Graphic file (type png)
+<use assets/figures/arch_suricata_stack.png>
+Package pdftex.def Info: assets/figures/arch_suricata_stack.png  used on input line 136.
+(pdftex.def)             Requested size: 443.57848pt x 89.16527pt.
 )
 
-[24
+[28
 
-
-
-
-]
+ <./assets/figures/arch_suricata_stack.png>]
 \openout2 = `content/conclusion.aux'.
 
  (./content/conclusion.tex)
 
-[25
+[29
 
 
 
 
 ]
-\openout2 = `content/annexe_a.aux'.
+runsystem(latexminted cleantemp  --timestamp 20251021181323 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
- (./content/annexe_a.tex
-\textbf {\MakeUppercase    []{Appendice} } A.
-)
-
-[26
-
-
-
-
-]
-runsystem(latexminted cleantemp  --timestamp 20251013191751 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
-
- (./main.aux (./content/introduction.aux) (./content/chapitre1.aux) (./content/chapitre2.aux) (./content/chapitre3.aux) (./content/chapitre4.aux) (./content/chapitre5.aux) (./content/conclusion.aux) (./content/annexe_a.aux))
+ (./main.aux (./content/introduction.aux) (./content/chapitre1.aux) (./content/chapitre2.aux) (./content/chapitre3.aux) (./content/chapitre4.aux) (./content/conclusion.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2021/03/21>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 399ACABED0B4F0743E2A6EDC25B5D790;7332.
+(rerunfilecheck)             Checksum: 0C9958354B8D1E5D92B5C70DD98F990C;9378.
  ) 
 Here is how much of TeX's memory you used:
- 60853 strings out of 473190
- 1400648 string characters out of 5715801
- 2288122 words of memory out of 5000000
- 82914 multiletter control sequences out of 15000+600000
- 618497 words of font info for 251 fonts, out of 8000000 for 9000
+ 60919 strings out of 473190
+ 1401828 string characters out of 5715801
+ 2286866 words of memory out of 5000000
+ 82940 multiletter control sequences out of 15000+600000
+ 621647 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,7n,107p,1113b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (30 pages, 9811388 bytes).
+ 100i,8n,107p,1113b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrb1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (33 pages, 11235760 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
- 60810 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 61915 words of extra memory for PDF output out of 74296 (max. 10000000)
 

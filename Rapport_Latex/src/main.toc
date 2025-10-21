@@ -59,9 +59,23 @@
 \vspace {1.5ex}
 \contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em IV\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Visualisation et alertes} }{23}{chapter.4}%
 \vspace {1.5ex}
-\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries Chapitre\hskip 0.5em V\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Analyse et discussion} }{24}{chapter.5}%
+\contentsline {section}{\numberline {4.1}\formatsection {Collecte et gestion des logs prioritaires en sécurité}}{23}{section.4.1}%
 \vspace {1.5ex}
-\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{25}{chapter*.32}%
+\contentsline {subsection}{\numberline {4.1.1}\formatsubsection {Collecte et transfert des journaux}}{23}{subsection.4.1.1}%
 \vspace {1.5ex}
-\contentsline {chapter}{\noindent \MakeUppercase []{\bfseries \textbf {\MakeUppercase []{Appendice} }\hskip 0.5em A\hskip 0.5em \textendash \hskip 0.5em} \bfseries \MakeUppercase []{Première Annexe} }{26}{appendix.A}%
+\contentsline {subsection}{\numberline {4.1.2}\formatsubsection {Structure et rotation automatique des logs}}{24}{subsection.4.1.2}%
+\vspace {1.5ex}
+\contentsline {subsection}{\numberline {4.1.3}\formatsubsection {Corrélation et visualisation dans Kibana}}{25}{subsection.4.1.3}%
+\vspace {1.5ex}
+\contentsline {subsection}{\numberline {4.1.4}\formatsubsection {Synthèse de la collecte par scénario}}{25}{subsection.4.1.4}%
+\vspace {1.5ex}
+\contentsline {subsection}{\numberline {4.1.5}\formatsubsection {Justification et intérêt sécurité}}{25}{subsection.4.1.5}%
+\vspace {1.5ex}
+\contentsline {section}{\numberline {4.2}\formatsection {Point bonus — Tableau de bord Kibana personnalisé}}{26}{section.4.2}%
+\vspace {1.5ex}
+\contentsline {section}{\numberline {4.3}\formatsection {Point bonus — Automatisation des alertes Slack}}{27}{section.4.3}%
+\vspace {1.5ex}
+\contentsline {section}{\numberline {4.4}\formatsection {Point bonus — Schéma d'architecture (Mermaid)}}{28}{section.4.4}%
+\vspace {1.5ex}
+\contentsline {chapter}{\bfseries \MakeUppercase []{Conclusion} }{29}{chapter*.38}%
 \contentsfinish 

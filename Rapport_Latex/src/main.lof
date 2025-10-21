@@ -24,4 +24,9 @@
 \contentsline {figure}{\numberline {{3.11}}{\ignorespaces \MakeUppercase []{Evénement \texttt {WEB-FUZZ} indexé et visible dans Kibana Discover.}}}{20}{figure.caption.29}%
 \contentsline {figure}{\numberline {{3.12}}{\ignorespaces \MakeUppercase []{Alerte \texttt {FTP anonymous login attempt} détectée par Suricata (extrait de fast.log).}}}{21}{figure.caption.30}%
 \contentsline {figure}{\numberline {{3.13}}{\ignorespaces \MakeUppercase []{Evénement FTP anonyme visible dans Kibana Discover.}}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {{4.1}}{\ignorespaces \MakeUppercase []{Vérification du flux de collecte : \texttt {syslog-ng} lit en continu \texttt {eve.json}.}}}{24}{figure.caption.32}%
+\contentsline {figure}{\numberline {{4.2}}{\ignorespaces \MakeUppercase []{Rotation automatique et compression des journaux dans \texttt {/var/log/suricata/}.}}}{24}{figure.caption.33}%
+\contentsline {figure}{\numberline {{4.3}}{\ignorespaces \MakeUppercase []{Tableau de bord Kibana personnalisé regroupant les visualisations issues des cinq scénarios de détection Suricata.}}}{26}{figure.caption.35}%
+\contentsline {figure}{\numberline {{4.4}}{\ignorespaces \MakeUppercase []{Notification automatique d'une alerte Suricata envoyée sur Slack.}}}{27}{figure.caption.36}%
+\contentsline {figure}{\numberline {{4.5}}{\ignorespaces \MakeUppercase []{Chaîne de collecte et supervision : Suricata $\rightarrow $ syslog-ng $\rightarrow $ Elasticsearch $\rightarrow $ Kibana, avec envoi d'alertes Slack et rotation des logs.}}}{28}{figure.caption.37}%
 \contentsfinish 
