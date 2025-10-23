@@ -1,13 +1,16 @@
 \begin{conclusion}
 
-Ce projet a permis de concevoir et de déployer un système complet de détection d’anomalies et de gestion centralisée des journaux de sécurité, basé sur la pile logicielle Suricata, syslog-ng, Elasticsearch, Kibana.
+Ce projet a permis de concevoir et de déployer un système complet de détection d’anomalies et de gestion centralisée des journaux de sécurité, basé sur la pile logicielle Suricata, syslog-ng, Elasticsearch, Kibana. 
 Grâce à cette architecture, les événements réseau peuvent être détectés, collectés, indexés et visualisés en temps réel au sein d’un tableau de bord unifié, assurant ainsi une traçabilité complète et une meilleure visibilité sur l’activité du réseau.
 
 La configuration de Suricata a permis de mettre en œuvre plusieurs règles de détection locales couvrant différents scénarios d’attaque :  
 \textit{ICMP (ping)}, \textit{scan Nmap}, \textit{tentatives SSH}, \textit{fuzzing web} et \textit{accès FTP anonyme}.  
 Chacun de ces cas a été validé avec succès, confirmant la capacité du système à identifier ces comportements suspects et ouvrant la voie vers l'identification de bien d'autres attaques, moyennant la mise en place des règles correspondantes dans Suricata.  
+Les alertes générées ont ensuite été corrélées et exploitées via Kibana, offrant une visualisation claire et centralisée de l’activité réseau.
 
 En conclusion, ce projet démontre la faisabilité et l’efficacité d’une approche open source pour la détection d’intrusions et la gestion de la sécurité réseau.  
+
+\vspace{3cm}
 
 \begin{figure}[H]
 	\centering

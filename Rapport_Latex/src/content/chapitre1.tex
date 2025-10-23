@@ -3,17 +3,15 @@
 
 
 \section{Environnement de travail}
-Le projet a été réalisé par une équipe de quatre personnes. Chaque membre a travaillé sur une machine hôte différente (Windows ou macOS), mais l’ensemble du projet a été uniformisé à travers l’utilisation d’une machine virtuelle Ubuntu. Ce choix garantit un environnement cohérent, reproductible et isolé, permettant de tester des scénarios d’attaques sans risque pour les machines personnelles.
+Le projet a été réalisé par une équipe de quatre personnes.
 
 L’environnement retenu est le suivant :
 \begin{itemize}
     \item \textbf{Système d’exploitation invité} : Ubuntu 22.04 LTS (Linux)
-    \item \textbf{Hyperviseurs utilisés} : VMware Fusion (macOS) et VMware Workstation/VirtualBox (Windows)
+    \item \textbf{Hyperviseurs utilisés} : VMware Fusion (macOS)
     \item \textbf{Ressources allouées} : 2 vCPU, 4 Go de mémoire vive, 40 Go de disque
-    \item \textbf{Interface réseau} : \texttt{ens160}, configurée en mode NAT
+    \item \textbf{Interface réseau} : \texttt{ens160}
 \end{itemize}
-
-Ce choix d’architecture permet de travailler de manière collaborative tout en garantissant que les configurations, les scripts et les fichiers produits sont compatibles sur toutes les machines de l’équipe.
 
 \section{Briques logicielles nécessaires}
 Le projet repose sur quatre composants principaux :

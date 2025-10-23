@@ -50,6 +50,7 @@ $ sudo suricata -T -c /etc/suricata/suricata.yaml
     \caption{Validation de la configuration de Suricata.}
 \end{figure}
 
+\clearpage
 \subsection{Relance du service}
 Suricata a ensuite été relancé en mode démon :
 
@@ -95,12 +96,16 @@ L’analyse du fichier \texttt{/var/log/suricata/fast.log} montre bien que la r�
 \bigskip
 En conclusion, Suricata est correctement configuré pour charger les règles locales et détecter du trafic ICMP simple, démontrant sa capacité à identifier des anomalies sur le réseau.
 
+\clearpage
 \section{Configuration de syslog-ng}
 
 Le rôle de \texttt{syslog-ng} dans notre projet est de récupérer les événements JSON générés par Suricata, d'en conserver une copie locale à des fins de vérification, et de les transmettre automatiquement vers Elasticsearch pour qu'ils puissent être analysés et visualisés dans Kibana.
 
 \subsection{Fichier de configuration}
-Pour réaliser cette intégration, j’ai ajouté un fichier de configuration dédié dans \texttt{/etc/syslog-ng/conf.d/30-suricata-es.conf}.  
+Pour réaliser cette intégration, j’ai ajouté un fichier de configuration dédié :  
+\begin{lstlisting}[style=bashstyle]
+    /etc/syslog-ng/conf.d/30-suricata-es.conf}.
+\end{lstlisting}  
 Celui-ci définit une source pointant vers le fichier \texttt{eve.json} de Suricata, une destination locale où les événements sont recopiés, ainsi qu’une destination HTTP vers Elasticsearch.
 
 \begin{figure}[H]
@@ -109,6 +114,7 @@ Celui-ci définit une source pointant vers le fichier \texttt{eve.json} de Suric
     \caption{Fichier de configuration syslog-ng pour l’intégration des événements Suricata.}
 \end{figure}
 
+\clearpage
 \subsection{Démarrage et vérification du service}
 Une fois le fichier ajouté, j’ai redémarré le service \texttt{syslog-ng} pour appliquer la configuration. Le statut confirme que le service est bien actif et fonctionne correctement.
 

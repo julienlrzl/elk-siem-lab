@@ -7,26 +7,26 @@
 \contentsline {figure}{\numberline {{2.5}}{\ignorespaces \MakeUppercase []{Génération de trafic ICMP avec la commande \texttt {ping}.}}}{8}{figure.caption.12}%
 \contentsline {figure}{\numberline {{2.6}}{\ignorespaces \MakeUppercase []{Alerte générée dans \texttt {fast.log} suite au ping ICMP.}}}{9}{figure.caption.13}%
 \contentsline {figure}{\numberline {{2.7}}{\ignorespaces \MakeUppercase []{Fichier de configuration syslog-ng pour l’intégration des événements Suricata.}}}{10}{figure.caption.14}%
-\contentsline {figure}{\numberline {{2.8}}{\ignorespaces \MakeUppercase []{Vérification du bon fonctionnement du service \texttt {syslog-ng}.}}}{10}{figure.caption.15}%
+\contentsline {figure}{\numberline {{2.8}}{\ignorespaces \MakeUppercase []{Vérification du bon fonctionnement du service \texttt {syslog-ng}.}}}{11}{figure.caption.15}%
 \contentsline {figure}{\numberline {{2.9}}{\ignorespaces \MakeUppercase []{Copie locale des événements Suricata dans \texttt {suricata-collected.json}.}}}{11}{figure.caption.16}%
-\contentsline {figure}{\numberline {{2.10}}{\ignorespaces \MakeUppercase []{Affichage des événements Suricata dans Kibana Discover.}}}{11}{figure.caption.17}%
-\contentsline {figure}{\numberline {{2.11}}{\ignorespaces \MakeUppercase []{Exemple de visualisation des alertes Suricata dans Kibana.}}}{12}{figure.caption.18}%
-\contentsline {figure}{\numberline {{3.1}}{\ignorespaces \MakeUppercase []{Commande \texttt {ping} exécutée dans le terminal (génération du trafic ICMP).}}}{13}{figure.caption.19}%
-\contentsline {figure}{\numberline {{3.2}}{\ignorespaces \MakeUppercase []{Alerte ICMP détectée par Suricata (extrait de fast.log).}}}{14}{figure.caption.20}%
-\contentsline {figure}{\numberline {{3.3}}{\ignorespaces \MakeUppercase []{Alerte ICMP visible dans Kibana Discover.}}}{14}{figure.caption.21}%
-\contentsline {figure}{\numberline {{3.4}}{\ignorespaces \MakeUppercase []{Commande Nmap exécutée pour générer l'activité de reconnaissance.}}}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {{3.5}}{\ignorespaces \MakeUppercase []{Alerte de type \texttt {TCP portscan} détectée par Suricata (extrait de fast.log).}}}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {{3.6}}{\ignorespaces \MakeUppercase []{Evénements \texttt {TCP portscan} visibles dans Kibana Discover.}}}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {{3.7}}{\ignorespaces \MakeUppercase []{Commande \texttt {nc} utilisée pour simuler des connexions SSH répétées sur le port 22.}}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {{3.8}}{\ignorespaces \MakeUppercase []{Alertes SSH détectées par Suricata (extrait de fast.log).}}}{18}{figure.caption.26}%
-\contentsline {figure}{\numberline {{3.9}}{\ignorespaces \MakeUppercase []{Événements SSH détectés dans Kibana Discover.}}}{18}{figure.caption.27}%
-\contentsline {figure}{\numberline {{3.10}}{\ignorespaces \MakeUppercase []{Alerte \texttt {WEB-FUZZ} détectée par Suricata (extrait de fast.log).}}}{19}{figure.caption.28}%
-\contentsline {figure}{\numberline {{3.11}}{\ignorespaces \MakeUppercase []{Evénement \texttt {WEB-FUZZ} indexé et visible dans Kibana Discover.}}}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {{3.12}}{\ignorespaces \MakeUppercase []{Alerte \texttt {FTP anonymous login attempt} détectée par Suricata (extrait de fast.log).}}}{21}{figure.caption.30}%
-\contentsline {figure}{\numberline {{3.13}}{\ignorespaces \MakeUppercase []{Evénement FTP anonyme visible dans Kibana Discover.}}}{22}{figure.caption.31}%
-\contentsline {figure}{\numberline {{4.1}}{\ignorespaces \MakeUppercase []{Vérification du flux de collecte : \texttt {syslog-ng} lit en continu \texttt {eve.json}.}}}{24}{figure.caption.32}%
-\contentsline {figure}{\numberline {{4.2}}{\ignorespaces \MakeUppercase []{Rotation automatique et compression des journaux dans \texttt {/var/log/suricata/}.}}}{24}{figure.caption.33}%
-\contentsline {figure}{\numberline {{4.3}}{\ignorespaces \MakeUppercase []{Tableau de bord Kibana personnalisé regroupant les visualisations issues des cinq scénarios de détection Suricata.}}}{26}{figure.caption.35}%
-\contentsline {figure}{\numberline {{4.4}}{\ignorespaces \MakeUppercase []{Notification automatique d'une alerte Suricata envoyée sur Slack.}}}{27}{figure.caption.36}%
-\contentsline {figure}{\numberline {{4.5}}{\ignorespaces \MakeUppercase []{Chaîne de collecte et supervision : Suricata $\rightarrow $ syslog-ng $\rightarrow $ Elasticsearch $\rightarrow $ Kibana, avec envoi d'alertes Slack et rotation des logs.}}}{28}{figure.caption.37}%
+\contentsline {figure}{\numberline {{2.10}}{\ignorespaces \MakeUppercase []{Affichage des événements Suricata dans Kibana Discover.}}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {{2.11}}{\ignorespaces \MakeUppercase []{Exemple de visualisation des alertes Suricata dans Kibana.}}}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {{3.1}}{\ignorespaces \MakeUppercase []{Commande \texttt {ping} exécutée dans le terminal (génération du trafic ICMP).}}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {{3.2}}{\ignorespaces \MakeUppercase []{Alerte ICMP détectée par Suricata (extrait de fast.log).}}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {{3.3}}{\ignorespaces \MakeUppercase []{Alerte ICMP visible dans Kibana Discover.}}}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {{3.4}}{\ignorespaces \MakeUppercase []{Commande Nmap exécutée pour générer l'activité de reconnaissance.}}}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {{3.5}}{\ignorespaces \MakeUppercase []{Alerte de type \texttt {TCP portscan} détectée par Suricata (extrait de fast.log).}}}{17}{figure.caption.23}%
+\contentsline {figure}{\numberline {{3.6}}{\ignorespaces \MakeUppercase []{Evénements \texttt {TCP portscan} visibles dans Kibana Discover.}}}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {{3.7}}{\ignorespaces \MakeUppercase []{Commande \texttt {nc} utilisée pour simuler des connexions SSH répétées sur le port 22.}}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {{3.8}}{\ignorespaces \MakeUppercase []{Alertes SSH détectées par Suricata (extrait de fast.log).}}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {{3.9}}{\ignorespaces \MakeUppercase []{Événements SSH détectés dans Kibana Discover.}}}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {{3.10}}{\ignorespaces \MakeUppercase []{Alerte \texttt {WEB-FUZZ} détectée par Suricata (extrait de fast.log).}}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {{3.11}}{\ignorespaces \MakeUppercase []{Evénement \texttt {WEB-FUZZ} indexé et visible dans Kibana Discover.}}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {{3.12}}{\ignorespaces \MakeUppercase []{Alerte \texttt {FTP anonymous login attempt} détectée par Suricata (extrait de fast.log).}}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {{3.13}}{\ignorespaces \MakeUppercase []{Evénement FTP anonyme visible dans Kibana Discover.}}}{23}{figure.caption.31}%
+\contentsline {figure}{\numberline {{4.1}}{\ignorespaces \MakeUppercase []{Vérification du flux de collecte : \texttt {syslog-ng} lit en continu \texttt {eve.json}.}}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {{4.2}}{\ignorespaces \MakeUppercase []{Rotation automatique et compression des journaux dans \texttt {/var/log/suricata/}.}}}{25}{figure.caption.33}%
+\contentsline {figure}{\numberline {{4.3}}{\ignorespaces \MakeUppercase []{Tableau de bord Kibana personnalisé regroupant les visualisations issues des cinq scénarios de détection Suricata.}}}{27}{figure.caption.34}%
+\contentsline {figure}{\numberline {{4.4}}{\ignorespaces \MakeUppercase []{Notification automatique d'une alerte Suricata envoyée sur Slack.}}}{28}{figure.caption.35}%
+\contentsline {figure}{\numberline {{4.5}}{\ignorespaces \MakeUppercase []{Chaîne de collecte et supervision : Suricata $\rightarrow $ syslog-ng $\rightarrow $ Elasticsearch $\rightarrow $ Kibana, avec envoi d'alertes Slack et rotation des logs.}}}{29}{figure.caption.36}%
 \contentsfinish 
