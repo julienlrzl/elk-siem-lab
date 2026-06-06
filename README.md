@@ -1,4 +1,9 @@
 # Suricata IDS – Détection d’intrusions et supervision réseau
+![Suricata](https://img.shields.io/badge/Suricata-EF4444?style=for-the-badge&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![syslog-ng](https://img.shields.io/badge/syslog--ng-000000?style=for-the-badge&logoColor=white)
 
 ## Présentation
 
