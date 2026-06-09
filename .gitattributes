@@ -1,0 +1,20 @@
+# The repo is a SIEM lab — the LaTeX report should not dominate language statistics
+# Mark all LaTeX-related extensions and the Rapport_Latex folder as documentation
+
+# LaTeX source and build artifacts
+*.tex linguist-documentation
+*.aux linguist-documentation
+*.bbl linguist-documentation
+*.bib linguist-documentation
+*.bst linguist-documentation
+*.cls linguist-documentation
+*.sty linguist-documentation
+*.toc linguist-documentation
+*.lof linguist-documentation
+*.out linguist-documentation
+*.fls linguist-documentation
+*.fdb_latexmk linguist-documentation
+*.minted linguist-documentation
+
+# Whole LaTeX report folder
+Rapport_Latex/** linguist-documentation
